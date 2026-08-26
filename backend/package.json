@@ -1,0 +1,19 @@
+{
+  "name": "ai-tool-assistant-backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.30",
+    "@langchain/groq": "^1.1.5",
+    "@langchain/langgraph": "1.4.12",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "zod": "^3.25.76"
+  }
+}
